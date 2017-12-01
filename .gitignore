@@ -10,11 +10,11 @@
 /eshell/
 /projectile-bookmarks.eld
 /.mc-lists.el
-/user.el
 /var/
 /tramp
 /url/
 /session.*
+/tutorial/
 /network-security.data
 projectile.cache
 /TAGS
