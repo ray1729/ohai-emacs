@@ -11,7 +11,10 @@
  '(ohai-personal-taste/splash nil)
  '(ohai-personal-taste/style (quote dark))
  '(ohai-personal-taste/training-wheels nil)
- '(ohai-personal-taste/window-state (quote maximised)))
+ '(ohai-personal-taste/window-state (quote maximised))
+ '(ohai/modules
+   (quote
+    (ohai-appearance ohai-fonts ohai-general ohai-splash ohai-ido ohai-navigation ohai-editing ohai-complete ohai-snippets ohai-codestyle ohai-dired ohai-project ohai-flycheck ohai-git ohai-orgmode ohai-help ohai-elisp ohai-html ohai-haskell))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
