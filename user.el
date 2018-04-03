@@ -7,6 +7,7 @@
 (use-package which-key)
 (use-package markdown-mode)
 (use-package markdown-mode+)
+(use-package terraform-mode)
 (use-package yaml-mode)
 (use-package go-mode)
 (use-package go-autocomplete)
@@ -26,3 +27,5 @@
 (add-hook 'clojure-mode-hook 'my-clojure-hook)
 
 (which-key-mode)
+
+(setenv "DEPLOYER" "ray")
