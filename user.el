@@ -12,6 +12,8 @@
 (use-package go-mode)
 (use-package go-autocomplete)
 (use-package go-eldoc)
+(use-package groovy-mode)
+(use-package logstash-conf)
 
 (defun my-clojure-hook ()
   (paredit-mode 1)
